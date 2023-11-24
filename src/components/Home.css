@@ -1,0 +1,47 @@
+/* Home.css */
+
+.home-container {
+    text-align: center;
+    /* Center align the content */
+    padding: 4rem 2rem;
+    /* Padding around the container */
+    background-color: #121212;
+    /* Spotify dark background */
+    color: #ffffff;
+    /* White text color */
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    /* Larger font size for the main header */
+    margin-bottom: 1rem;
+    /* Spacing below the header */
+    color: #1DB954;
+    /* Spotify brand color for the header */
+}
+
+.home-container p {
+    font-size: 1.2rem;
+    /* Font size for descriptive text */
+    margin-bottom: 2rem;
+    /* Spacing below the paragraph */
+}
+
+.start-button {
+    padding: 1rem 2rem;
+    background-color: #1DB954;
+    /* Spotify brand color */
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    /* Rounded edges for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    /* Make button text bold */
+}
+
+.start-button:hover {
+    background-color: #1ed760;
+    /* Lighter green on hover */
+}

@@ -1,0 +1,49 @@
+/* PlaylistDisplay.css */
+
+.playlist-display {
+    padding: 2rem;
+    background-color: #121212;
+    /* Spotify dark background */
+    color: #ffffff;
+    /* White text color */
+    border-radius: 8px;
+    /* Rounded corners for the container */
+    margin: 2rem 0;
+    /* Margin for spacing around the container */
+}
+
+.playlist-display h2 {
+    margin-bottom: 1rem;
+    /* Spacing below the header */
+    color: #1DB954;
+    /* Spotify brand color for headers */
+}
+
+.playlist {
+    display: flex;
+    flex-direction: column;
+    /* Stack playlist items vertically */
+    gap: 1rem;
+    /* Space between playlist items */
+}
+
+.playlist-display button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    /* Space above the button */
+    background-color: #1DB954;
+    /* Spotify brand color */
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    /* Rounded edges for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    /* Make button text bold */
+}
+
+.playlist-display button:hover {
+    background-color: #1ed760;
+    /* Lighter green on hover */
+}

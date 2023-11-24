@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.app-footer {
+    background-color: #181818;
+    /* Spotify's footer color */
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+    width: 100%;
+}
+
+.footer-links {
+    margin-top: 0.5rem;
+}
+
+.footer-links a {
+    color: #1DB954;
+    /* Spotify's brand color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+    /* Color change on hover */
+    text-decoration: underline;
+}

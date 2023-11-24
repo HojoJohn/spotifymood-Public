@@ -1,0 +1,42 @@
+.playlist-saved-confirmation {
+    
+    /* Spotify's dark background */
+    color: #1DB954;
+    /* Spotify's bright green for accent */
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 50px auto;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.playlist-saved-confirmation h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.playlist-saved-confirmation p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff;
+    /* White text for general content */
+}
+
+.playlist-saved-confirmation a {
+    display: inline-block;
+    background-color: #1DB954;
+    /* Spotify's accent green */
+    color: #000;
+    /* Black text on buttons for contrast */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.playlist-saved-confirmation a:hover {
+    background-color: #1ed760;
+    /* A lighter green for hover effect */
+}

@@ -1,0 +1,22 @@
+/* PlaylistItem.css */
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    
+    
+    border-radius: 8px;
+}
+
+/* You may remove the img and playlist-item-info styles if they are no longer needed */
+
+.playlist-item iframe {
+    width: 100%;
+    /* This will make the iframe take the full width of its container */
+    height: 200px;
+    /* Adjust height as needed */
+    border: none;
+    border-radius: 12px;
+}

@@ -1,0 +1,99 @@
+/* MoodAndGenreSelector.css */
+
+/* Start by resetting any margin or padding that might be inherited */
+.mood-and-genre-selector-container {
+    margin: 0 auto;
+    /* Centers the container */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* Ensures full vertical centering */
+    
+    /* or any preferred background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* Adjust as needed */
+    width: calc(100% - 40px);
+    /* Full width minus padding */
+    box-sizing: border-box;
+}
+
+/* Styling for the form */
+form {
+    width: 100%;
+}
+
+/* Styling for the titles */
+h2 {
+    color:#1db954;
+    /* Spotify color scheme */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style the mood and genre options */
+.mood-options label,
+.genre-options select {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Style for radio buttons and labels */
+.mood-options label {
+    cursor: pointer;
+}
+
+.mood-options input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Style the genre selection dropdown */
+.genre-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    /* Bootstrap's form control border color */
+    background-color: #f8f8f8;
+    height: 150px;
+    /* Or as required */
+    overflow-y: auto;
+    /* Allows scrolling if there are many genres */
+}
+
+/* Style the submit button */
+.mood-genre-submit-btn {
+    background-color: #1db954;
+    /* Spotify's green */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.mood-genre-submit-btn:hover {
+    background-color: #1ed760;
+    /* A lighter green */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mood-and-genre-selector-container {
+        padding: 20px;
+        min-height: auto;
+        /* Allows container to grow with content */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
